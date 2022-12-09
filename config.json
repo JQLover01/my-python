@@ -29,14 +29,6 @@
 		"filterable": 1,
 		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_douban.py"
 	},{
-       "key": "t4public",
-       "name":"T4聚合(T4)",
-       "type": 4,
-       "api":"http://t4.ganggang.live:3812/vod?sites=all&ali_token=b0800658ed2f456daab5df3b86de680a&timeout=10", 
-       "searchable": 1,
-       "quickSearch": 1,
-       "filterable": 0
-    },{
 		"key": "py_bilibili",
 		"name": "哔哩哔哩(PY)",
 		"type": 3,
