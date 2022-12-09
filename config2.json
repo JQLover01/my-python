@@ -482,7 +482,7 @@
     }
   ],
 
-  "lives": [{"group":"redirect","channels":[{"name": "redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHMlM0EvL2docHJveHkuY29tL2h0dHBzJTNBLy9naXRodWIuY29tL0pRTG92ZXIwMS9teWxpdmUvcmF3L21haW4vbGl2ZS50eHQ="]}]}],
+  "lives": [{"group":"redirect","channels":[{"name": "redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHMlM0EvL2FnaXQuYWkvSlFMb3Zlci9teWxpdmUvcmF3L2JyYW5jaC9tYXN0ZXIvbGl2ZS50eHQ="]}]}],
 
   "parses": [
    {"name":"解析聚合","type":3,"url":"Demo"},
