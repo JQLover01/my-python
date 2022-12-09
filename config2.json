@@ -1,9 +1,11 @@
 {
+"spider": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;3d99b9f6015e1779941725bbb179eb5f",
+  "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
   "lives": [{
 		"group": "redirect",
 		"channels": [{
 			"name": "live",
-			"urls": ["proxy://do=live&type=txt&ext=Y2xhbjovL3BsdWdpbi90di9saXZlLnR4dA=="]
+			"urls": ["proxy://do=live&type=txt&ext=aHR0cHMlM0EvL2docHJveHkuY29tL2h0dHBzJTNBLy9naXRodWIuY29tL0pRTG92ZXIwMS9teWxpdmUvcmF3L21haW4vbGl2ZS50eHQ="]
 		}]
 	}],
 	
