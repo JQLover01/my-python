@@ -1,0 +1,502 @@
+{
+  "spider": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;3d99b9f6015e1779941725bbb179eb5f",
+  "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
+  "lives": [
+    {
+      "name": "直播",
+      "type": 0,
+      "url": "http://home.jundie.top:81/Cat/tv/live.txt",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+    }
+  ],
+  "sites": [
+    {
+       "key": "zhibo1",
+       "name": "📺电视直播",
+       "type": 4,
+       "api": "http://120.53.102.254/live?url=https://download.kstore.space/download/3185/live.txt",
+       "searchable": 1,
+       "quickSearch": 1,
+       "filterable": 1
+    },
+    {
+		"key": "py_douban",
+		"name": "豆瓣热搜(PY)",
+		"type": 3,
+		"api": "py_douban",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_douban.py"
+	},{
+       "key": "t4public",
+       "name":"T4聚合(T4)",
+       "type": 4,
+       "api":"http://t4.ganggang.live:3812/vod?sites=all&ali_token=b0800658ed2f456daab5df3b86de680a&timeout=10", 
+       "searchable": 1,
+       "quickSearch": 1,
+       "filterable": 0
+    },{
+		"key": "py_bilibili",
+		"name": "哔哩哔哩(PY)",
+		"type": 3,
+		"api": "py_bilibili",
+		"searchable": 0,
+		"quickSearch": 0,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_bilibili.py"
+	},{
+		"key": "py_bilibili_baby",
+		"name": "儿童乐园(PY)",
+		"type": 3,
+		"api": "py_bilibili_baby",
+		"searchable": 0,
+		"quickSearch": 0,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_bilibili_baby.py"
+	},{
+		"key": "py_bilibili_xx",
+		"name": "小学课堂(PY)",
+		"type": 3,
+		"api": "py_bilibili_xx",
+		"searchable": 0,
+		"quickSearch": 0,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_bilibili_xx.py"
+	},{
+		"key": "py_bilibili_cz",
+		"name": "初中课堂(PY)",
+		"type": 3,
+		"api": "py_bilibili_cz",
+		"searchable": 0,
+		"quickSearch": 0,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_bilibili_cz.py"
+	},{
+		"key": "py_bilibili_gz",
+		"name": "高中课堂(PY)",
+		"type": 3,
+		"api": "py_bilibili_gz",
+		"searchable": 0,
+		"quickSearch": 0,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_bilibili_gz.py"
+	},{
+        "key": "py_bilibili_ty",
+        "name": "哔哩体育(PY)",
+        "type": 3,
+        "api": "py_bilibili",
+        "searchable": 0,
+        "quickSearch": 0,
+        "filterable": 1,
+        "ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_bilibili_ty.py"
+    },{
+        "key": "py_bilibili_hj",
+        "name": "哔哩音乐(PY)",
+        "type": 3,
+        "api": "py_bilibili",
+        "searchable": 0,
+        "quickSearch": 0,
+        "filterable": 1,
+        "ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_bilibili_hj.py"
+    },{
+		"key": "py_justbili",
+		"name": "哔哩直播(PY)",
+		"type": 3,
+		"api": "py_justbili",
+		"searchable": 0,
+		"quickSearch": 0,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_justbili.py"
+	},{
+		"key": "py_douyu",
+		"name": "斗鱼直播(PY)",
+		"type": 3,
+		"api": "py_douyu",
+		"searchable": 0,
+		"quickSearch": 0,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_douyu.py"
+	},{
+		"key": "py_huya",
+		"name": "虎牙直播(PY)",
+		"type": 3,
+		"api": "py_huya",
+		"searchable": 0,
+		"quickSearch": 0,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_huya.py"
+    },{
+        "key": "py_alist",
+        "name": "Alist网盘(PY)",
+        "type": 3,
+        "api": "py_alist",
+        "searchable": 0,
+        "quickSearch": 0,
+        "filterable": 1,
+        "ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_alist.py"
+    },{
+		"key": "py_cctv_full",
+		"name": "央视资源(PY)",
+		"type": 3,
+		"api": "py_cctv_full",
+		"searchable": 0,
+		"quickSearch": 0,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_cctv_full.py"
+	},{
+        "key": "py_kunyu77",
+        "name": "酷云七七(PY)",
+        "type": 3,
+        "api": "py_kunyu77",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_kunyu77.py"
+    },{
+        "key": "py_bilimd",
+        "name": "B站影视(PY)",
+        "type": 3,
+        "api": "py_bilimd",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_bilimd.py"
+    },{
+        "key": "py_libvio",
+        "name": "libvio影视(PY)",
+        "type": 3,
+        "api": "py_libvio",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_libvio.py"
+    },{
+        "key": "py_cyys",
+        "name": "创艺影视(PY)",
+        "type": 3,
+        "api": "py_cyys",
+        "searchable": 0,
+        "quickSearch": 0,
+        "filterable": 1,
+        "ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_cyys.py"
+    },{
+        "key": "py_ikan",
+        "name": "爱看影视(PY)",
+        "type": 3,
+        "api": "py_ikan",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_ikan.py"
+    },{
+        "key": "py_kuaikan",
+        "name": "快看影视(PY)",
+        "type": 3,
+        "api": "py_kuaikan",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_kuaikan.py"
+    },{
+        "key": "py_3qu",
+        "name": "快播影视(PY)",
+        "type": 3,
+        "api": "py_3qu",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_3qu.py"
+    },{
+		"key": "py_czspp",
+		"name": "厂长影视(PY)",
+		"type": 3,
+		"api": "py_czspp",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_czspp.py"
+	},{
+		"key": "py_zxzj",
+		"name": "在线之家(PY)",
+		"type": 3,
+		"api": "py_zxzj",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_zxzj.py"
+	},{
+		"key": "py_voflix",
+		"name": "Voflix影视(PY)",
+		"type": 3,
+		"api": "py_voflix",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_voflix.py"
+	},{
+		"key": "py_gimytv",
+		"name": "剧迷TV(PY)",
+		"type": 3,
+		"api": "py_gimytv",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_gimytv.py"
+	},{
+		"key": "py_genmov",
+		"name": "跟剧TV(PY)",
+		"type": 3,
+		"api": "py_genmov",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_genmov.py"
+	},{
+		"key": "py_cokemv",
+		"name": "Coke影视(PY)",
+		"type": 3,
+		"api": "py_cokemv",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_cokemv.py"
+	},{
+		"key": "py_xmaomi",
+		"name": "猫咪影视(PY)",
+		"type": 3,
+		"api": "py_xmaomi",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_xmaomi.py"
+	},{
+		"key": "py_freezb",
+		"name": "free直播(PY)",
+		"type": 3,
+		"api": "py_freezb",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_freezb.py"
+	},{
+		"key": "py_qie",
+		"name": "企鹅体育(PY)",
+		"type": 3,
+		"api": "py_qie",
+		"playerType":"2",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_qie.py"
+	},{
+        "key": "Gitcafe",
+        "name": "小纸条(爬虫)",
+        "type": 3,
+        "api": "csp_Gitcafe",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "b0800658ed2f456daab5df3b86de680a",
+        "jar": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/jar/爬虫2.jar;md5;3b376fbe31fb80bf131203fae225fff5"
+    },{
+		"key": "py_gitcafe",
+		"name": "小纸条(PY)",
+		"type": 3,
+		"api": "py_gitcafe",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_gitcafe.py",
+		"jar": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/jar/爬虫2.jar;md5;3b376fbe31fb80bf131203fae225fff5"
+	},{
+		"key": "py_yiso",
+		"name": "易搜(PY)",
+		"type": 3,
+		"api": "py_yiso",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_yiso.py"
+	},{
+		"key": "py_zhaozy",
+		"name": "找资源(PY)",
+		"type": 3,
+		"api": "py_zhaozy",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_zhaozy.py"
+	},{
+		"key": "py_yunso",
+		"name": "up云搜(PY)",
+		"type": 3,
+		"api": "py_yunso",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_yunso.py"
+	},{
+		"key": "py_pansou",
+		"name": "盘搜(PY)",
+		"type": 3,
+		"api": "py_pansou",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_pansou.py"
+	},{
+		"key": "py_mac",
+		"name": "mac资源(PY)",
+		"type": 3,
+		"api": "py_mac",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_mac.py"
+	},{
+		"key": "push_agent",
+		"name": "阿里推送(PY)",
+		"type": 3,
+		"api": "py_ali",
+		"searchable": 0,
+		"quickSearch": 0,
+		"filterable": 0,
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_ali.py"
+	},
+    {
+      "key": "AList",
+      "name": "AList",
+      "type": 3,
+      "api": "csp_AList",
+      "searchable": 1,
+      "filterable": 1,
+      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/alist.json"
+    },
+    {
+      "key": "哔哩",
+      "name": "哔哩",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "filterable": 1,
+      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/bili.json"
+    },
+    {
+      "key": "泥巴",
+      "name": "泥巴",
+      "type": 3,
+      "api": "csp_Nbys",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "快播",
+      "name": "快播",
+      "type": 1,
+      "api": "https://www.kuaibozy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 0,
+      "categories": [
+        "动漫",
+        "国产剧",
+        "日韩剧",
+        "港台剧",
+        "欧美剧",
+        "泰剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "纪录片",
+        "综艺"
+      ]
+    },
+    {
+      "key": "百度",
+      "name": "百度",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 0,
+      "categories": [
+        "国产动漫",
+        "日韩动漫",
+        "大陆剧",
+        "欧美剧",
+        "韩剧",
+        "日剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片"
+      ]
+    },
+    {
+      "key": "櫻花",
+      "name": "櫻花",
+      "type": 3,
+      "api": "csp_Ying",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "巴士",
+      "name": "巴士",
+      "type": 3,
+      "api": "csp_Dm84",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "異界",
+      "name": "異界",
+      "type": 3,
+      "api": "csp_Ysj",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "紙條",
+      "name": "紙條",
+      "type": 3,
+      "api": "csp_Paper",
+      "searchable": 1,
+      "filterable": 1,
+      "ext": "http://ali.饭太硬.ml/tok"
+    },
+    {
+      "key": "易搜",
+      "name": "易搜",
+      "type": 3,
+      "api": "csp_YiSo",
+      "searchable": 1,
+      "filterable": 0,
+      "ext": "http://ali.饭太硬.ml/tok"
+    },
+    {
+      "key": "盤搜",
+      "name": "盤搜",
+      "type": 3,
+      "api": "csp_PanSou",
+      "searchable": 1,
+      "filterable": 0,
+      "ext": "http://ali.饭太硬.ml/tok"
+    },
+    {
+      "key": "push_agent",
+      "name": "推送",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 1,
+      "filterable": 0,
+      "ext": "http://ali.饭太硬.ml/tok"
+    }
+  ]
+}
