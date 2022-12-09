@@ -488,8 +488,7 @@
       "filterable": 0,
       "ext": "http://ali.饭太硬.ml/tok"
     }
-  ]
-},
+  ],
 	"parses": [{
 		"name": "默认选项",
 		"type": 3,
