@@ -299,8 +299,7 @@
 		"searchable": 1,
 		"quickSearch": 1,
 		"filterable": 1,
-		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_gitcafe.py",
-		"jar": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/jar/爬虫2.jar;md5;3b376fbe31fb80bf131203fae225fff5"
+		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_gitcafe.py"
 	},{
 		"key": "py_yiso",
 		"name": "易搜(PY)",
@@ -355,41 +354,67 @@
 		"quickSearch": 0,
 		"filterable": 0,
 		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_ali.py"
-	},
-    {
-      "key": "AList",
-      "name": "AList",
-      "type": 3,
-      "api": "csp_AList",
-      "searchable": 1,
-      "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/alist.json"
-    },
-    {
-      "key": "哔哩",
-      "name": "哔哩",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
-      "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/bili.json"
-    },
-    {
-      "key": "泥巴",
-      "name": "泥巴",
-      "type": 3,
-      "api": "csp_Nbys",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "快播",
-      "name": "快播",
-      "type": 1,
-      "api": "https://www.kuaibozy.com/api.php/provide/vod/",
-      "searchable": 1,
-      "filterable": 0,
-      "categories": [
+    },{
+        "key":"Zjdr",
+        "name":"追剧(TS)",
+        "type":"3",
+        "api":"csp_Dora",
+        "searchable":"1",
+        "quickSearch":"1",
+        "filterable":"1",
+        "ext":"778e8966ec0e9c0ae0b4682ad3550f40",
+        "jar": "img+https://hutool.ml/jar;md5;7573e5dee052b6b1661a0bc400f190cc"
+    },{
+        "key":"Yanet",
+        "name":"奈飞(TS)",
+        "type":"3",
+        "api":"csp_Dora",
+        "searchable":"1",
+        "quickSearch":"1",
+        "filterable":"1",
+        "ext":"a369b1f623fe86605f1b029f0cf66349",
+        "jar": "img+https://hutool.ml/jar;md5;7573e5dee052b6b1661a0bc400f190cc"
+    },{
+        "key":"Tian",
+        "name":"天天(TS)",
+        "type":"3",
+        "api":"csp_Dora",
+        "searchable":"1",
+        "quickSearch":"1",
+        "filterable":"1",
+        "ext":"bdc1c75081e5e477189a463baa47e392",
+        "jar": "img+https://hutool.ml/jar;md5;7573e5dee052b6b1661a0bc400f190cc"
+    },{
+        "key": "AList",
+        "name": "AList(FM)",
+        "type": 3,
+        "api": "csp_AList",
+        "searchable": 1,
+        "filterable": 1,
+        "ext": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/alist.json"
+    },{
+        "key": "哔哩",
+        "name": "哔哩(FM)",
+        "type": 3,
+        "api": "csp_Bili",
+        "searchable": 1,
+        "filterable": 1,
+        "ext": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/bili.json"
+    },{
+        "key": "泥巴",
+        "name": "泥巴(FM)",
+        "type": 3,
+        "api": "csp_Nbys",
+        "searchable": 1,
+        "filterable": 1
+    },{
+        "key": "快播",
+        "name": "快播(FM)",
+        "type": 1,
+        "api": "https://www.kuaibozy.com/api.php/provide/vod/",
+        "searchable": 1,
+        "filterable": 0,
+        "categories": [
         "动漫",
         "国产剧",
         "日韩剧",
@@ -406,15 +431,14 @@
         "纪录片",
         "综艺"
       ]
-    },
-    {
-      "key": "百度",
-      "name": "百度",
-      "type": 1,
-      "api": "https://api.apibdzy.com/api.php/provide/vod/",
-      "searchable": 1,
-      "filterable": 0,
-      "categories": [
+    },{
+        "key": "百度",
+        "name": "百度(FM)",
+        "type": 1,
+        "api": "https://api.apibdzy.com/api.php/provide/vod/",
+        "searchable": 1,
+        "filterable": 0,
+        "categories": [
         "国产动漫",
         "日韩动漫",
         "大陆剧",
@@ -429,66 +453,59 @@
         "剧情片",
         "战争片"
       ]
-    },
-    {
-      "key": "櫻花",
-      "name": "櫻花",
-      "type": 3,
-      "api": "csp_Ying",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "巴士",
-      "name": "巴士",
-      "type": 3,
-      "api": "csp_Dm84",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "異界",
-      "name": "異界",
-      "type": 3,
-      "api": "csp_Ysj",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "紙條",
-      "name": "紙條",
-      "type": 3,
-      "api": "csp_Paper",
-      "searchable": 1,
-      "filterable": 1,
-      "ext": "http://ali.饭太硬.ml/tok"
-    },
-    {
-      "key": "易搜",
-      "name": "易搜",
-      "type": 3,
-      "api": "csp_YiSo",
-      "searchable": 1,
-      "filterable": 0,
-      "ext": "http://ali.饭太硬.ml/tok"
-    },
-    {
-      "key": "盤搜",
-      "name": "盤搜",
-      "type": 3,
-      "api": "csp_PanSou",
-      "searchable": 1,
-      "filterable": 0,
-      "ext": "http://ali.饭太硬.ml/tok"
-    },
-    {
-      "key": "push_agent",
-      "name": "推送",
-      "type": 3,
-      "api": "csp_Push",
-      "searchable": 1,
-      "filterable": 0,
-      "ext": "http://ali.饭太硬.ml/tok"
+    },{
+        "key": "櫻花",
+        "name": "櫻花(FM)",
+        "type": 3,
+        "api": "csp_Ying",
+        "searchable": 1,
+        "filterable": 1
+    },{
+        "key": "巴士",
+        "name": "巴士(FM)",
+        "type": 3,
+        "api": "csp_Dm84",
+        "searchable": 1,
+        "filterable": 1
+    },{
+        "key": "異界",
+        "name": "異界(FM)",
+        "type": 3,
+        "api": "csp_Ysj",
+        "searchable": 1,
+        "filterable": 1
+    },{
+        "key": "紙條",
+        "name": "紙條(FM)",
+        "type": 3,
+        "api": "csp_Paper",
+        "searchable": 1,
+        "filterable": 1,
+        "ext": "http://ali.饭太硬.ml/tok"
+    },{
+        "key": "易搜",
+        "name": "易搜(FM)",
+        "type": 3,
+        "api": "csp_YiSo",
+        "searchable": 1,
+        "filterable": 0,
+        "ext": "http://ali.饭太硬.ml/tok"
+    },{
+        "key": "盤搜",
+        "name": "盤搜(FM)",
+        "type": 3,
+        "api": "csp_PanSou",
+        "searchable": 1,
+        "filterable": 0,
+        "ext": "http://ali.饭太硬.ml/tok"
+    },{
+        "key": "push_agent",
+        "name": "推送(FM)",
+        "type": 3,
+        "api": "csp_Push",
+        "searchable": 1,
+        "filterable": 0,
+        "ext": "http://ali.饭太硬.ml/tok"
     }
   ]
 }
