@@ -150,8 +150,8 @@
         "name": "B站影视(PY)",
         "type": 3,
         "api": "py_bilimd",
-        "searchable": 1,
-        "quickSearch": 1,
+        "searchable": 0,
+        "quickSearch": 0,
         "filterable": 1,
         "ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_bilimd.py"
     },{
@@ -389,7 +389,7 @@
         "name": "AList(FM)",
         "type": 3,
         "api": "csp_AList",
-        "searchable": 1,
+        "searchable": 0,
         "filterable": 1,
         "ext": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/alist.json"
     },{
@@ -397,7 +397,7 @@
         "name": "哔哩(FM)",
         "type": 3,
         "api": "csp_Bili",
-        "searchable": 1,
+        "searchable": 0,
         "filterable": 1,
         "ext": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/bili.json"
     },{
