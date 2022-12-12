@@ -355,36 +355,6 @@
 		"filterable": 0,
 		"ext": "https://ghproxy.com/https://github.com/JQLover01/my-python/raw/main/py_ali.py"
     },{
-        "key":"Zjdr",
-        "name":"追剧(TS)",
-        "type":"3",
-        "api":"csp_Dora",
-        "searchable":"1",
-        "quickSearch":"1",
-        "filterable":"1",
-        "ext":"778e8966ec0e9c0ae0b4682ad3550f40",
-        "jar": "img+https://hutool.ml/jar;md5;7573e5dee052b6b1661a0bc400f190cc"
-    },{
-        "key":"Yanet",
-        "name":"奈飞(TS)",
-        "type":"3",
-        "api":"csp_Dora",
-        "searchable":"1",
-        "quickSearch":"1",
-        "filterable":"1",
-        "ext":"a369b1f623fe86605f1b029f0cf66349",
-        "jar": "img+https://hutool.ml/jar;md5;7573e5dee052b6b1661a0bc400f190cc"
-    },{
-        "key":"Tian",
-        "name":"天天(TS)",
-        "type":"3",
-        "api":"csp_Dora",
-        "searchable":"1",
-        "quickSearch":"1",
-        "filterable":"1",
-        "ext":"bdc1c75081e5e477189a463baa47e392",
-        "jar": "img+https://hutool.ml/jar;md5;7573e5dee052b6b1661a0bc400f190cc"
-    },{
         "key": "AList",
         "name": "AList(FM)",
         "type": 3,
