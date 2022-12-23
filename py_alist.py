@@ -33,8 +33,6 @@ class Spider(Spider):  # 元类 默认的元类 type
 "❄️姬路白雪の资源小站": "https://pan.jlbx.xyz",
 "📦梓澪の妙妙屋(H)": "https://xn--i0v44m.xyz",
 "🔮嗨翻": "https://pan.hikerfans.com", 
-"🦀9T(Adult)": "https://drive.9t.ee",
-"💞木偶": "https://www.kugutsu.ml",
 "🚆菊花盘": "https://pan.142856.xyz",
 "🌤晴园的宝藏库": "https://alist.52qy.repl.co",
 "🐋一只鱼": "https://alist.youte.ml",
