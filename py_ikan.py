@@ -7,6 +7,7 @@ import base64
 import math
 import json
 import requests
+import urllib
 
 class Spider(Spider):
 	def getName(self):
@@ -132,7 +133,7 @@ class Spider(Spider):
 			try:
 				session = requests.session()
 				img = session.get('https://ikan6.vip/index.php/verify/index.html?', headers=header).content
-				code = session.post('http://www.lmhome.tk:9887/ocr/b64/text', data=base64.b64encode(img).decode()).text
+				code = session.post('https://api.nn.ci/ocr/b64/text', data=base64.b64encode(img).decode()).text
 				res = session.post(url=f"https://ikan6.vip/index.php/ajax/verify_check?type=search&verify={code}",
 								   headers=header).json()
 				if res["msg"] == "ok":
@@ -170,19 +171,26 @@ class Spider(Spider):
 
 	def playerContent(self,flag,id,vipFlags):
 		result = {}
+		header = {
+			"User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36",
+			"Referer": "https://ikan6.vip/"
+		}
 		url = 'https://ikan6.vip/vodplay/{0}/'.format(id)
 		rsp = self.fetch(url)
+		cookie = rsp.cookies
 		info = json.loads(self.regStr(reg=r'var player_data=(.*?)</script>', src=rsp.text))
-		if info['encrypt'] == 1:
-			str = info['url'].replace('%u', '\\u').encode('utf-8').decode('unicode_escape')
-		elif info['encrypt'] == 2:
-			str = base64.b64decode(info['url'].replace('%u', '\\u').encode('utf-8').decode('unicode_escape')).decode(
-				'UTF-8')
-		elif info['encrypt'] == 3:
-			string = info['url'][8:len(info['url'])]
-			substr = base64.b64decode(string).decode('UTF-8')
-			str = substr[8:len(substr) - 8].split('_')[-1]
-		purl = 'https://weiyunsha.ikan6.vip/tsjmjson/play.php?sign={0}'.format(str)
+		string = info['url'][8:len(info['url'])]
+		substr = base64.b64decode(string).decode('UTF-8')
+		str = substr[8:len(substr) - 8]
+		if 'Ali' in info['from']:
+			url = 'https://cms.ikan6.vip/ali/nidasicaibudaowozaina/nicaibudaowozaina.php?url={0}'.format(str)
+		else:
+			url = 'https://cms.ikan6.vip/nidasicaibudaowozaina/nicaibudaowozaina.php?url={0}'.format(str)
+		rsp = self.fetch(url, headers=header, cookies=cookie)
+		randomurl = self.regStr(reg=r"getrandom\(\'(.*?)\'", src=rsp.text)
+		pstring = randomurl[8:len(randomurl)]
+		psubstr = base64.b64decode(pstring).decode('UTF-8')
+		purl = urllib.parse.unquote(psubstr[8:len(psubstr) - 8])
 		result["parse"] = 0
 		result["playUrl"] = ''
 		result["url"] = purl
